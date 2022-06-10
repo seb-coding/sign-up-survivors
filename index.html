@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>New Series: Survivor</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <!--Header-->
+    <header><img id="logo" src="images/logo.png" alt="Logo of survivor series"></header>
+    <div>
+        <h1>Watch the new series "Survivor" now!</h1>
+        <form>
+            <fieldset>
+                <legend>personal information</legend>
+                <div id="fields">
+                    <input type="text" placeholder="field1">
+                    <input type="text" placeholder="field2">
+                    <input type="text" placeholder="field3">
+                    <input type="text" placeholder="field4">
+                    <input type="text" placeholder="field5">
+                    <input type="text" placeholder="field6">
+                </div>
+                <p>Pick your favourite character!</p>
+
+    <!--Main Picture-->
+                <div id="mainpicture">
+                    <img id="char1_big" src="images/char1.png" alt="Guy is thinking">
+                    <img id="char2_big" src="images/char2.png" alt="Guy looks surprised">
+                    <img id="char3_big" src="images/char3.png" alt="Woman is smiling">
+                </div>
+
+    <!--Sub Pictures-->
+                <div id="subpicture">
+                    <img id="char1_sml" src="images/char1.png" onclick="myFunction1()" alt="Guy is thinking">
+                    <img id="char2_sml" src="images/char2.png" onclick="myFunction2()" alt="Guy looks surprised">
+                    <img id="char3_sml" src="images/char3.png" onclick="myFunction3()" alt="Woman is smiling">
+                </div>
+                <input class="button" type="submit" value="Send" name="">
+            </fieldset>
+        </form>
+    </div>
+
+    <!--Footer-->
+    <footer><p>Copyright &copy; IEK Survivor</p></footer>
+</body>
+</html>
